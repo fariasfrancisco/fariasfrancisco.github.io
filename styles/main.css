@@ -84,3 +84,17 @@ html,body {
 .tags:not(:last-child) {
     margin-bottom: 0;
 }
+
+.tag.logo {
+  width: 3em;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.card > * {
+  flex: 1 1 100%;
+}
